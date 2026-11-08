@@ -25,7 +25,7 @@ jobs:
 
       - name: 设置环境
         run: |
-          echo "REPO_URL=https://api.github.com/repos/bia-pain-bache/BPB-Worker-Panel/releases" >> $GITHUB_ENV
+          echo "REPO_URL=https://api.github.com/repos/bia-pain-bache/BPB-Worker-Panel/releases" >> $FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=trueenv 
           echo "TARGET_FILE=worker.zip" >> $FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=trueenv 
         # $GITHUB_ENV
           
