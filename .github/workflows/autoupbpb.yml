@@ -21,12 +21,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 检出仓库
-        uses: FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=trueenv #actions/checkout@v4
+        uses: actions/checkout@v4
 
       - name: 设置环境
         run: |
           echo "REPO_URL=https://api.github.com/repos/bia-pain-bache/BPB-Worker-Panel/releases" >> $GITHUB_ENV
-          echo "TARGET_FILE=worker.zip" >> $GITHUB_ENV
+          echo "TARGET_FILE=worker.zip" >> $FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=trueenv 
+        # $GITHUB_ENV
+          
 
       - name: 检查并更新 Worker
         env:
