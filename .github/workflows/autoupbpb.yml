@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 检出仓库
-        uses: actions/checkout@v4
+        uses: FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=trueenv #actions/checkout@v4
 
       - name: 设置环境
         run: |
